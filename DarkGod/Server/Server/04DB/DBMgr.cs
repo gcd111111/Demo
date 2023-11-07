@@ -28,7 +28,7 @@ public class DBMgr
 
     public void Init()
     {
-        conn = new MySqlConnection("server=localhost;userid=root;password=root;database=darkgod;charset=utf8mb4");
+        conn = new MySqlConnection("server=localhost;userid=root;password=;database=darkgod;charset=utf8mb4");
         conn.Open();
         PECommon.Log("DBMgr Init Done.");
 
